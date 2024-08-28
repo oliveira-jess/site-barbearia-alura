@@ -1,0 +1,75 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+	background: #BBBBBB;
+	padding: 20px 0;
+}
+
+.caixa{
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+nav {
+	position: absolute;
+	top: 110px;
+	right:0px;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover{ /* o hover é usado quando se quer um efeito ao passar por cima do elemento */
+	color: #C78C19;
+}
+
+footer{
+	text-align: center;
+	background: url("bg.jpg");
+	padding: 40px;
+}
+
+.copyright{
+	color: #FFFFFF;
+	font-size: 13px;
+	margin: 20px 0 0;
+}
+
+@media screen and (max-width: 480px) {
+	.caixa {
+		width: auto;
+	}
+	
+	h1 {
+		text-align: center;
+	}
+
+	nav {
+		position: static;
+	}
+
+	footer {
+		padding: 0px;
+	}
+
+	footer img {
+		width: 100px;
+	}
+
+	.copyright{
+		margin: 0;
+	}
+}

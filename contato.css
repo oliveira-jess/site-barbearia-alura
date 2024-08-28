@@ -1,0 +1,81 @@
+main {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.formulario{
+	margin: 40px 20px;
+}
+
+form label, form legend {
+	display: block;
+	margin-bottom: 10px;
+	font-size: 20px;
+}
+
+.container {
+	display: flex;
+}
+
+.item-tabela {
+	margin-left: 20px;
+}
+
+.input-padrao {
+	font-size: 16px;
+	margin-bottom: 20px;
+	padding: 10px 20px;
+	width: 50%;
+	border: 1px solid #948d8d;
+	border-radius: 20px;
+	box-sizing: border-box;
+}
+
+.checkbox{
+	margin: 20px 0;
+}
+
+.enviar {
+	font-size: 16px;
+	font-weight: bold;
+	padding: 10px 0;
+	width: 50%;
+	background-color: orange;
+	color: white;
+	border: none;
+	border-radius: 20px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+.enviar:hover {
+	background: orangered;
+	transform: scale(1.2);
+}
+
+fieldset {
+	margin-top: 10px;
+}
+
+thead {
+	background: #555555;
+	color: white;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+td, th {
+	border: 1px solid #948d8d;
+	font-size: 16px;
+	padding: 8px 15px;
+}
+
+@media screen and (max-width: 480px) {
+	main {
+		width: auto;
+	}
+
+	.input-padrao, .enviar {
+		width: 100%;
+	}
+}

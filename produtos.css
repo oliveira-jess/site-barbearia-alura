@@ -1,0 +1,56 @@
+.produtos{
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0; /* espaçamento interno */
+}
+
+.produtos li {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%; /* espaçamento externo */
+	padding: 30px 20px;
+	box-sizing: border-box; /* serve para que o padding seja feito dentro do tamanho do elemento */
+	border: 2px solid #000000; /* tamanho da borda; estilo da borda; cor da borda */
+	border-radius: 10px;
+}
+
+.produtos li:hover {
+	border-color: #C78C19;
+}
+
+.produtos li:active { /* o active é usado quando se quer um efeito ao clicar no elemento */
+	border-color: #088C19;
+}
+
+.produtos h2{
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.produtos li:hover h2{ /* nesse caso está sendo aplicado o hover no h2 */
+	font-size: 34px;
+}
+
+.produto-descricao {
+	font-size: 18px;
+}
+
+.produto-preco {
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+@media screen and (max-width: 480px) {
+	.produtos {
+		width: auto;
+	}
+
+	.produtos li {
+		display: block;
+		margin-top: 10px;
+		width: auto;
+	}
+}
