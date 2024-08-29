@@ -38,7 +38,7 @@ nav a:hover{ /* o hover é usado quando se quer um efeito ao passar por cima do 
 
 footer{
 	text-align: center;
-	background: url("bg.jpg");
+	background: url("../img/bg.jpg");
 	padding: 40px;
 }
 
